@@ -91,7 +91,7 @@ html {
 }
 
 .lead {  
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .badge-bliss {
@@ -123,9 +123,10 @@ h3 {
 }
 
 .img-github {
-    height: 160px;
-    width: 312px;
+    height: 135px;
+    width: 230px;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .img-gitlogo {  
@@ -142,6 +143,10 @@ h3 {
     -o-filter: blur(2px);
     -ms-filter: blur(2px);
     filter: blur(2px);
+}
+
+.footer.has-cards {  
+  padding-top: 400px;
 }
 
 #portfolio {
